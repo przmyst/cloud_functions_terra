@@ -22,6 +22,7 @@ function publicKeyToAddress(publicKey) {
 
     return address
 }
+
 const BYTES = Buffer.from('Sign this message to login')
 function verifySigner(signedBytes) {
 
